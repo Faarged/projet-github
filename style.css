@@ -29,6 +29,7 @@ p{
   height:200px;
   width:100%;
   background-color: red;
+
 }
 
 .article2{
@@ -36,7 +37,15 @@ p{
   background-color:brown;
   width:100%;
 }
+.container {
+  display: flex;
+  flex-direction: column;
 
+  min-height: 100vh;
+}
+.container .content {
+  flex: 1;
+}
 footer{
   background-color:blue;
   width:100%;
